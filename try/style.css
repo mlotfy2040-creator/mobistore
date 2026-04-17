@@ -1,0 +1,39 @@
+
+.main2{
+    width: 20%;
+    height: 420px;
+    box-shadow: 5px 10px 18px rgb(158, 145, 145);
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.imgmain{
+    width:200px ;
+    height:200px ;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    
+}
+
+.hmain{
+    font-size: 19px;
+    font-weight:500 ;
+
+}
+.pmain{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.lmain{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #F28123;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+#num1{
+    margin-left: 18%;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+            
+        }
+        #phead{
+            display: inline-block;
+            margin-left: 130px;
+            margin-right: 720px;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        nav{
+            display: inline-block;
+        }
+        .links{
+            text-decoration: none;
+            margin-right: 15px;
+            color: #777;
+        }
+        
+
+        .login{
+            width: 100%;
+            height: 600px;
+            background-image:url(img/about-img.svg) ;
+            
+            background-size: 100% 1200px;
+            position: relative;
+            bottom: 100px;
+            margin-bottom: 0px;
+            z-index: -1;
+            
+        }
+        .login2{
+            position: relative;
+            top :40%;
+            left: 40%;
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 20%;
+            height: 270px;
+            border-radius: 7px;
+        }
+        .inpt{
+            margin-bottom: 13px;
+            margin-left: 20px;
+            width: 200px;
+            border-radius: 7px;
+            height: 30px;
+        }
+        #sel{
+            width: 207px;
+        }
+        #btn{
+            background-color: #28a745;
+            color: white;
+            width: 207px;
+            height: 35px;
+            margin-left: 20px;
+            border-radius: 7px;
+            border: none;
+        }
+        .links:hover{
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p id="phead">Medcare</p>
+        <nav>
+            <a href="" class="links">Home</a>
+            <a href=""  class="links">Login</a>
+            <a href=""  class="links">Register</a>
+            <a href=""  class="links">About</a>
+        </nav>
+    </header>
+    <div class="login">
+        <div class="login2">
+            <h3 style="text-align: center; color: white;position: relative;top: 10px;" >Login</h3>
+            <form action="">
+            <input type="text" style="display: block;" placeholder="ID Number" class="inpt">
+            <input type="text" style="display: block;" placeholder="Password" class="inpt">
+            <select name="" id="sel" class="inpt" style="display: block;" >
+                <option value="" class="inpt">Login As</option>
+                <option value="" class="inpt">Patient</option>
+                <option value="" class="inpt">Doctor</option>
+            </select>
+            <button id="btn">Login</button>
+            <p style="font-size: 11px;color: aliceblue; text-align: center;">Don't have an account?<a href="" style="color: rgb(33, 110, 173);">Register here</a> </p>
+
+        </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
