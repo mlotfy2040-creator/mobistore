@@ -27,6 +27,7 @@ nav{
 
 #lhome{
      color: #F28123;
+     
 }
 
 .part1{
@@ -138,12 +139,17 @@ nav{
     margin-bottom: 50px;
     margin-right: 30px;
 }
+#sale{
+color: #F28123;
+}
+
 .lpro{
     color: white;
     background-color: #F28123;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 30px;
+    margin-left: 25px;
 }
 
 .hpro{
@@ -183,16 +189,16 @@ nav{
 
 .news{
     text-align: center;
-    margin-bottom: 350px;
+    margin-bottom: 0px;
 }
 
 .newslinks{
     text-decoration: none;
     color: #F28123;
-    
+    font-size: 18px;
     position: relative;
     /* top: 120px; */
-    right: 120px;
+    right: 100px;
     
 }
 .newshead{
@@ -200,7 +206,7 @@ nav{
 }
 
 .newsp{
-    margin-bottom: 20%;
+    margin-bottom: 6%;
 }
 
 #num1{
@@ -264,6 +270,7 @@ nav{
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 footer{
     width: 100%;
     height: 300px;
@@ -300,6 +307,7 @@ footer{
     background-color: #F28123;
     padding: 10px 15px;
     border-radius: 30px;
+    
 }
 
 table,td,tr{
@@ -334,4 +342,10 @@ table{
 .check{
     margin-left: 40%;
     
+}
+
+#btncard:hover{
+background-color: #031117;
+    color: #F28123;
+    border-color: #031117;
 }
